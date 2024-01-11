@@ -1,0 +1,20 @@
+﻿@using MyAlias = CombineSample.Models.ErrorViewModel
+
+@model MyAlias
+
+@{
+    ViewData["Title"] = "Error";
+    Layout = "_Layout"; 
+}
+
+<h1>Error</h1>
+
+<p>@Model.ErrorMessage</p>
+
+@if (!string.IsNullOrEmpty(Model.ErrorDetails))
+{
+    <h3>Error Details:</h3>
+    <p>@Model.ErrorDetails</p>
+}
+
+

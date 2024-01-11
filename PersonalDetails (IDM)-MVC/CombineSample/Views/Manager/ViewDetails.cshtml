@@ -1,0 +1,80 @@
+@model CombineSample.Models.Employee
+@{
+    Layout="_Layout";
+     ViewData["Title"] = "ManageRequest";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PersonalDetails.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="container">
+    <div class="row shadow rounded">
+        <div class="col-sm-8 col-md-8 col-ig-8 col-xl-6">
+            <div class="col-sm-6 col-mb-6 col-lg-6 col-xl-6">
+            <div class="mb-3">
+                    <h2 class="text-pink text-center d-flex justify-content-right fst-italic"><h3><strong>VACATION REQUEST </strong></h3></h2>
+                    <span class="fst-italic text-muted">Employee Vactions Request Details</span>
+            </div>
+        </div>
+        <form method="post" asp-action="ViewDetails" asp-area="Manager">
+            <input type="hidden" asp-for="employeeId">
+            <div class="mb-3 row">
+                <label asp-for="employeeName" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="employeeName" type="text" class="form-control" id="Name" >
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="employeeEmail" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="employeeEmail" type="text" class="form-control" id="Email" >
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="employeeDOB" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="employeeDOB" type="date" class="form-control" id="DOB" >
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="employeeAge" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="employeeAge" type="text" class="form-control" id="Age" >
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="employeeMobile" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="employeeMobile" type="text" class="form-control" id="Number" >
+                </div>
+            </div>
+            
+            <div class="mb-3 row">
+                <label asp-for="employmentStatus" class="col-sm-2 col-form-label"> </label>
+                <div class="col-sm-10">
+                    <input asp-for="employmentStatus" type="text" class="form-control" id="Status" >
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="employmentStartDate" class="col-sm-2 col-form-label">  </label>
+                <div class="col-sm-10">
+                    <input asp-for="employmentStartDate" type="text" class="form-control" id="date" >
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="employeeLocation" class="col-sm-2 col-form-label"> </label>
+                <div class="col-sm-10">
+                    <input asp-for="employeeLocation" type="text" class="form-control" id="Location" >
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

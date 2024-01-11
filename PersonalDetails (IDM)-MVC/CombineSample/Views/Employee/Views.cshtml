@@ -1,0 +1,49 @@
+@model CombineSample.Models.Employee
+@{
+    Layout="_Layout";
+     ViewData["Title"] = "Employee";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PersonalDetails.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="container">
+    <div class="profile">
+    <div class="row shadow rounded">
+        
+        <div class="col-sm-6 col-mb-6 col-lg-6 col-xl-6">
+            <div class="mb-3">
+                    <h2 class="text-pink text-center d-flex justify-content-right fst-italic"><h3><strong>EMPLOYEE DETAILS</strong></h3></h2>
+                    <span class="fst-italic text-muted">Your Employment Details </span>
+            </div>
+              <form method="post" asp-action="Views" asp-area="Employee">
+            <input type="hidden" asp-for="employeeId">
+            <p>Employee Id: @Model.employeeId</p>
+            <p>Employee Name: @Model.employeeName</p>
+            <p>Employee Email: @Model.employeeEmail</p>
+            <p>Employee DOB: @Model.employeeAge</p>
+            <p>Employee Number: @Model.employeeMobile</p>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td><a class="btn btn-primary" asp-route-id="@Model.employeeId" asp-controller="Employee" asp-action="Edit">Update Details</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+           
+            
+        </div>
+    
+        
+    </div>
+</div>
+        

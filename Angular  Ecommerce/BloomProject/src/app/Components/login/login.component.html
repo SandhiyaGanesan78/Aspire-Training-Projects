@@ -1,0 +1,23 @@
+<div class="Login">
+    <h1>Login</h1>
+    <form  [formGroup]="loginForm1"   class="common-form">
+      <div class="form">
+        <input type="text" class="form-input" placeholder="Enter Your Email" name="email" formControlName="email" [class.error]="loginForm1.controls['email'].touched && loginForm1.hasError('required','email')"/>
+      <div class="error" *ngIf="loginForm1.controls['email'].invalid && loginForm1.controls['email'].touched">
+        <small *ngIf="loginForm1.controls['email'].errors?.['required']">Please enter your email</small>
+        <small *ngIf="loginForm1.controls['email'].errors?.['email']">Please enter a valid email</small>
+      </div>
+      </div>
+
+      <div>
+        <input type="password" class="form-input" placeholder="Enter Your Password" name="password" formControlName="password" [class.error]="loginForm1.controls['password'].touched && loginForm1.hasError('required','password')"/>
+      <div class="error" *ngIf="loginForm1.controls['password'].invalid && loginForm1.controls['password'].touched">
+        <small *ngIf="loginForm1.controls['password'].errors?.['required']">Please enter your password</small>
+      </div>
+      </div>
+
+      <button [disabled]="!loginForm1.valid"  (click)="OnLogin()" class="form-button">Login</button>
+    </form>
+   <p class="auth-toggle-link">Don't have an account? <a  routerLink="/signup">Click here</a></p>
+
+   </div>

@@ -1,0 +1,25 @@
+.product-details
+{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: darkred;
+  font-family: 'Courier New', Courier, monospace;
+}
+.product-details .product-img{
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+.quantity-group{
+  margin-top: 20px; border-color: red;
+  color: violet;
+
+}
+.quantity-group button{
+  padding: 10px;
+
+}
+.quantity-group input{
+  padding: 10px;
+  width: 50px;
+}

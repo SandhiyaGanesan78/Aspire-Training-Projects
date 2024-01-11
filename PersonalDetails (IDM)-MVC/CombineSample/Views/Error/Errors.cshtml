@@ -1,0 +1,28 @@
+@model CombineSample.Models.ErrorViewModel
+
+@{
+    ViewData["Title"] = "statuscode";
+    Layout = "_Layout"; 
+}
+@if (Model != null && Model.NullableErrorType == CombineSample.Models.ErrorViewModel.ErrorType.Forbidden)
+{
+    <h1>Page not found</h1>
+    <p>@ViewData["Messagefound"]</p>
+}
+
+
+else if (Model != null && Model.NullableErrorType == CombineSample.Models.ErrorViewModel.ErrorType.Forbidden)
+{
+    <h1>Access Forbidden</h1>
+    <p>@ViewData["Messageaccess"]</p>
+}
+else if (Model != null && Model.NullableErrorType == CombineSample.Models.ErrorViewModel.ErrorType.InternalServerError)
+{
+    <h1>Internal Server Error</h1>
+    <p>@ViewData["Messageserver"]</p>
+}
+else
+{
+    <h1>Error</h1>
+    <p>Error type not specified.</p>
+}

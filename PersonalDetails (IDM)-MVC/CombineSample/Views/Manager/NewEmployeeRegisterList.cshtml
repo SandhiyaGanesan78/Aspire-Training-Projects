@@ -1,0 +1,124 @@
+@model List<CombineSample.Models.Employee>
+@{
+    Layout = null;
+    ViewData["Title"] = "RegisteredEmployeeList";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PersonalDetails.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="position-sticky top-0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 nav-pils" id="pills-tab" role="tablist" style="background-color: purple">
+            <div class="container-fluid" style="background-color: purple">
+                <a class="navbar-brand nav-link text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Personal Details</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link  text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white fw-bold" asp-route-id=" " asp-area="Manager" asp-controller="Manager" asp-action="AddEmployee">Add Employee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white fw-bold" asp-route-id=" " asp-controller="Manager" asp-action="NewEmployeeRegisterList">New Registered Employee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white fw-bold" asp-route-id=" " asp-controller="Manager" asp-action="LeaveList">Vacation Request List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Manager" asp-action="Logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mx-auto">
+        <div class="row">
+             <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="card shadow rounded">
+                    <div class="card-body">
+                        <h2 class="card-title text-pink text-center"><strong>EMPLOYEE LIST</strong></h2>
+                        <p class="card-text fst-italic text-muted text-center">New Registered Employee Records</p>
+
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Employee Id</th>
+                                    <th>Employee Image</th>
+                                    <th>Employee Name</th>
+                                    <th>Employee Email</th>
+                                    <th>Employee Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null && Model.Any())
+                                {
+                                    @foreach (var employee in Model)
+                                    {
+                                        <tr>
+                                            <td>@employee.employeeId</td>
+                                            <td>
+                                                @if (employee.employeeImage != null)
+                                                {
+                                                    <img src="@Url.Action("GetImage", "Manager", new { id = @employee.employeeId })" alt="img" class="employee-image">
+                                                }
+                                                else
+                                                {
+                                                    <img src="~/images/image.jpg" alt="default-img" class="employee-image">
+                                                }
+                                            </td>
+                                            <td>@employee.employeeName</td>
+                                            <td>@employee.employeeEmail</td>
+                                            <td><a class="nav-link text-dark" asp-route-id="@employee.employeeId" asp-controller="Manager" asp-action="NewManageEmployee">View</a></td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="4">No items to display.</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <br>
+                        <a class="nav-link text-dark" asp-controller="Manager" asp-action="EmployeeList">Back To All Records</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <footer class="border-top position-sticky text-white p-3">
+        <div class="container">
+            <div class="row">
+                <h6 class="text-center">© Copyrights 2023 Aspire Systems</h6>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<style>
+    .employee-image {
+        width: 100px; 
+        height: 100px; 
+    }
+</style>

@@ -1,0 +1,83 @@
+@model CombineSample.Models.Manager
+@{
+    Layout="_Layout";
+     ViewData["Title"] = "ManagerLogin";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PersonalDetails.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="container">
+    <div class="row shadow rounded">
+        <div class="col-sm-6 col-md-6 col-ig-6 col-xl-6">
+            <div>
+            <img src="~/Images/carouselImages/office.jpg" class="w-100 h-100" alt="Welcome">
+            </div>
+        </div>
+        <div class="col-sm-6 col-mb-6 col-lg-6 col-xl-6">
+            <div class="mb-3">
+                    <h2 class="text-pink text-center d-flex justify-content-right fst-italic"><h3><strong>MANAGER LOGIN</strong></h3></h2>
+                    <span class="fst-italic text-muted">Log in to work</span>
+            </div>
+           <form method="post">
+                @if ( @ViewBag.email!=null && @ViewBag.password!=null )
+				{
+		       <div class="mb-1 row">
+                <div class="form-group">
+                <input asp-for="managerEmail" type="email" class="form-control" id="Email" required >
+                <span asp-validation-for="managerEmail"></span>
+                
+                </div>
+                </div>
+
+	           <div class="mb-1 row">
+                <div class="form-group">
+                <input asp-for="managerPassword" type="password" class="form-control" id="Password" required >
+                <span asp-validation-for="managerPassword"></span>
+                
+                </div>
+                </div>
+                }
+                @if ( @ViewBag.email==null && @ViewBag.password==null )
+				{
+                <div class="mb-1 row">
+                <div class="form-group">
+                <input asp-for="managerEmail" type="Email" class="form-control" id="Email"  required>
+                <span asp-validation-for="managerEmail"></span>
+                
+                </div>
+                </div>
+
+	           <div class="mb-1 row">
+                <div class="form-group">
+                <input asp-for="managerPassword" type="password" class="form-control" id="Password"  required>
+                <span asp-validation-for="managerPassword"></span>
+                
+                </div>
+                </div>
+                }
+                <div class="form-group d-md-flex ">
+					<div class="w-50 text-md-right">
+                        <a class="nav-link text-dark" asp-controller="Employee" asp-action="ForgotPassword">Forgot Password?</a>
+					</div>			
+	            </div>
+                <p class=" text-danger text-center mb-4">@ViewBag.Message</p> 
+	            <div class="form-group">
+	            	<button type="submit" class="btn btn-sm w-100 btn-dark p-2 shawdow rounded">Submit</button>
+	            </div> 
+                <br>
+                <br>
+                
+                <p class=" fw-light text-reset">Don't have a account? Click here to <a asp-action="ManagerRegister" asp-controller="Manager">SignUp</a></p>
+	        </form>
+        </div>
+    </div>
+</div>
+        

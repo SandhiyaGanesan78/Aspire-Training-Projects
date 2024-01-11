@@ -1,0 +1,62 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-vjjndca2u8] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-vjjndca2u8] {
+  color: #0077cc;
+}
+
+.btn-primary[b-vjjndca2u8] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-vjjndca2u8], .nav-pills .show > .nav-link[b-vjjndca2u8] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-vjjndca2u8] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-vjjndca2u8] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-vjjndca2u8] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-vjjndca2u8] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-vjjndca2u8] {
+  position: absolute;
+  background-color: purple;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+.navbar a[b-vjjndca2u8] {
+  
+  
+  text-align: center;
+  justify-content: center;
+}
+.navbar-collapse[b-vjjndca2u8]{
+  flex-grow: 0;
+}
+.dropdown-menu[b-vjjndca2u8]{
+  left:50px;
+}

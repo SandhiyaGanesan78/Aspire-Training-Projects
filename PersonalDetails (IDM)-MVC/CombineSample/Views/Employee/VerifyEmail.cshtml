@@ -1,0 +1,45 @@
+@model CombineSample.Models.MyCustomValidation
+@{
+    Layout="_Layout";
+     ViewData["Title"] = "OTP";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PersonalDetails.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="container">
+    <div class="row shadow rounded">
+        <div class="col-sm-6 col-md-6 col-ig-6 col-xl-6">
+            <div>
+            <img src="~/Images/carouselImages/office.jpg" class="w-100 h-100" alt="Welcome">
+            </div>
+        </div>
+        <div class="col-sm-6 col-mb-6 col-lg-6 col-xl-6">
+            <div class="mb-3">
+                    <h2 class="text-pink text-center d-flex justify-content-right fst-italic"><h3><strong>Forgot Password</strong></h3></h2>
+                    <span class="fst-italic text-muted">Reset your Password</span>
+            </div>
+           <form method="post" >
+			    <div class="mb-1 row">
+					<div class="form-group">
+						<input asp-for="verifycode" value="@ViewBag.email" type="text" class="form-control" id="Email" placeholder="Enter your verification code"  required>
+					</div>
+				</div>
+                <div class="form-group">
+                    <button type="submit" align="center" class="btn btn-dark rounded submit p-2 px-2">submit</button>
+                </div>
+                <div class="form-group">
+                    <h6 class="text-center mb-4">@ViewBag.Message</h6>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        

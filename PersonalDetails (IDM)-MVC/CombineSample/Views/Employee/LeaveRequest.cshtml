@@ -1,0 +1,118 @@
+@model CombineSample.Models.Employee
+@{
+    Layout=null;
+     ViewData["Title"] = "VactionReq";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PersonalDetails.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="position-sticky top-0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 nav-pils" id="pills-tab" role="tablist" style="background-color:purple">
+            <div class="container-fluid" style="background-color:purple">
+                <a class="navbar-brand nav-link text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Personal Details</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item" >
+                            <a class="nav-link  text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Home</a> </button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Employee" asp-action="Logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+<div class="container">
+    <div class="profile">
+    <div class="row shadow rounded">
+        
+        <div class="col-sm-6 col-mb-6 col-lg-6 col-xl-6">
+            <div class="mb-3">
+                    <h2 class="text-pink text-center d-flex justify-content-right fst-italic"><h3><strong>VACATION REQUEST</strong></h3></h2>
+                    <span class="fst-italic text-muted">Request vaction by filling the below form</span>
+            </div>
+             <form method="post" asp-action="LeaveRequest" asp-area="Employee" enctype="multipart/form-data">
+            <input type="hidden" asp-for="employeeId">
+            
+
+            <div class="mb-1 row">
+             <div class="form-group">
+             <select id="leaveReason" name="leaveReason" class="col-sm-2 col-form-label form-control" required>
+                <option value="">Please select an option</option>
+                <option value="option1" selected="@(Model?.leaveReason == "Casual Leave" ? "selected" : null)">Casual Leave</option>
+                <option value="Half-day Leave" selected="@(Model?.leaveReason == "Half-day Leave" ? "selected" : null)">Half-Day leave</option>
+                <option value="One-day Leave" selected="@(Model?.leaveReason == "One-day Leave" ? "selected" : null)">One-day Leave</option>
+                <option value="Earned Leave" selected="@(Model?.leaveReason == "Earned Leave" ? "selected" : null)">Earned Leave</option>
+                <option value="Sick Leave" selected="@(Model?.leaveReason == "Sick Leave " ? "selected" : null)">Sick Leave</option>
+                <option value="Maternity Leave" selected="@(Model?.leaveReason == "Maternity Leave" ? "selected" : null)" >Maternity Leave </option>
+                <option value="Paternity leaves" selected="@(Model?.leaveReason == "Paternity leaves" ? "selected" : null)" >Paternity leaves</option>
+                <option value="Marriage leave" selected="@(Model?.leaveReason == "Marriage leave" ? "selected" : null)" >Marriage leave </option>
+                <option value="Compensatory leaves" selected="@(Model?.leaveReason == "Compensatory leaves" ? "selected" : null)" >Compensatory leaves </option>
+            </select>
+            <span asp-validation-for="leaveReason" class="text-danger"></span>
+            </div>
+            </div>
+
+            <div class="mb-1 row">
+            <div class="form-group">
+                <input asp-for="employeeLeaveStartDate" type="date" id="startDateTime" class="form-control" >
+                <span asp-validation-for="employeeLeaveStartDate" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="mb-1 row">
+            <div class="form-group">
+                <input asp-for="employeeLeaveEndDate" type="date" id="endDateTime" class="form-control" >
+                <span asp-validation-for="employeeLeaveEndDate" class="text-danger"></span>
+            </div>
+            </div>
+            <button align="center" type="submit" class="btn btn-sm w-100 btn-dark p-2 shawdow rounded" id="submitbutton" value="Save">Submit</button>
+        </form>
+        </div>
+    </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+    <footer class="border-top postion-sticky text-white p-3">
+        <div class="container ">
+            <div class="row">
+                
+            <h6 class="text-center">© Copyrights 2023 Aspire Systems</h6>
+        </div>
+      </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+</body>
+        

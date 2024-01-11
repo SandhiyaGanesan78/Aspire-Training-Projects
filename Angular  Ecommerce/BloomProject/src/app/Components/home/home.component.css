@@ -1,0 +1,53 @@
+.product-header-image{
+  object-fit: contain;
+  width: 100%;
+  height: 600px;
+}
+.product-item{
+  margin-bottom: 40px;
+  border: 1px solid rgb(218, 9, 44);
+
+}
+.product-item img{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+.product-item .product-details{
+  border-top: 1px solid rgb(241, 94, 119);
+  border-bottom: 1px solid pink;
+  padding: 15px;
+}
+.product-item .name-head{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-item h6{
+  text-align: center;
+}
+.product-item .product-footer{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+}
+.product-list-wrapper h1{
+color: rgb(228, 13, 110);
+font-family:'Courier New', Courier, monospace;
+}
+.product-price h6 {
+  color: darkred;
+  font-family:'Courier New', Courier, monospace;
+}
+.product-category h6 {
+  color: darkred;
+  font-family:'Courier New', Courier, monospace;
+
+}
+.carousel-caption{
+  font-family:'Courier New', Courier, monospace;
+}
+.product-footer a{
+  color: darkred;
+}

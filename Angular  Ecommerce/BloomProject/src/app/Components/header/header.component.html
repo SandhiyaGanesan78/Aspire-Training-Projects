@@ -1,0 +1,101 @@
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><fa-icon [icon]="icon"></fa-icon>Bloom</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div *ngIf="menuType!='Admin'">
+      <form class="d-flex">
+        <input class="form-control me-2 nav-search" type="search" placeholder="Search" aria-label="Search" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()">
+        <button class="btn btn-outline-success" type="submit" (click)="submitSearch(searchInput.value)"><fa-icon [icon]="iconsearch"></fa-icon></button>
+        <ul class="suggested-search" *ngIf="searchResult">
+          <li *ngFor="let item of searchResult">
+            <a (mousedown)="redirectToDeatils(item.id)" > {{item.name}}</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngSwitch]="menuType">
+      <ul *ngSwitchCase="'default'" class="navbar-nav me-auto mb-2 mb-lg-0  ">
+
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#">Cart({{cartItems}})</a>
+        </li>
+        <li>
+          <select id="categories" [(ngModel)]="selectedCategory" (ngModelChange)="filterProducts($event)" >
+            <option  value="">Categories</option>
+            <option   *ngFor="let category of categories" [value]="category">{{ category }}</option>
+          </select>
+          <div *ngIf="products.length > 0"  >
+           <h2>Filtered Products:</h2>
+           <ul>
+          <li *ngFor="let product of products" >
+            {{ product.name }}</li>
+          </ul>
+          </div>
+        </li>
+
+      </ul>
+
+          <ul *ngSwitchCase="'Admin'" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" routerLink="" >Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" routerLink="admin/add/product">Add Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  routerLink="admin/home">List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="logout()">logout</a>
+            </li>
+
+          </ul>
+          <ul *ngSwitchCase="'User'" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+            </li>
+            <li>
+            <select id="categories" [(ngModel)]="selectedCategory" (ngModelChange)="filterProducts($event)" >
+              <option  value="">Categories</option>
+              <option   *ngFor="let category of categories" [value]="category">{{ category }}</option>
+            </select>
+            <div *ngIf="products.length > 0"  >
+             <h2>Filtered Products:</h2>
+             <ul>
+            <li *ngFor="let product of products" >
+              {{ product.name }}</li>
+            </ul>
+            </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  routerLink="my-orders">My Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="logout()">logout</a>
+            </li>
+
+          </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+

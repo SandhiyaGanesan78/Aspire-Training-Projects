@@ -1,0 +1,181 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CombineSample
+build_property.RootNamespace = CombineSample
+build_property.ProjectDir = E:\aspire training\COEDotNet\CombineSample\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\aspire training\COEDotNet\CombineSample
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/AddProfilePic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkUHJvZmlsZVBpYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/EmployeeLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/EmployeeRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/EmployeeView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRm9yZ290UGFzc3dvcmRDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/ForgotPasswordEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRm9yZ290UGFzc3dvcmRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/LeaveRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTGVhdmVSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmVzZXRQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/ResetPasswordFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmVzZXRQYXNzd29yZEZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/UpdatePictureM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlUGljdHVyZU0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/VerifyEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVmVyaWZ5RW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Employee/Views.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVmlld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Error/Errors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBZGRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ApproveLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBcHByb3ZlTGVhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/DeleteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxEZWxldGVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/EmployeeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFbXBsb3llZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/LeaveList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxMZWF2ZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ManageEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNYW5hZ2VFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ManageRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNYW5hZ2VSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ManagerLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNYW5hZ2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ManagerRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxNYW5hZ2VyUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/NewEmployeeRegisterList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxOZXdFbXBsb3llZVJlZ2lzdGVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/NewManageEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxOZXdNYW5hZ2VFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/NewUpdateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxOZXdVcGRhdGVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/RejectLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxSZWplY3RMZWF2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/RemoveEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxSZW1vdmVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/UpdateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxVcGRhdGVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/VerifyEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxWZXJpZnlFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Manager/ViewDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxWaWV3RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/aspire training/COEDotNet/CombineSample/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vjjndca2u8

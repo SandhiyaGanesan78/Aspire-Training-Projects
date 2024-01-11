@@ -1,0 +1,30 @@
+<div class="add-product">
+  <h1>Add New Product</h1>
+  <p class="message-p">{{addProductMessage}}</p>
+  <form [formGroup]="addProduct" #addProductForm="ngForm" class="common-form" (ngSubmit)="submit(addProduct.value)">
+    <input type="text" class="form-input" placeholder="Enter Product Name" formControlName="name" />
+    <div class="error" *ngIf="addProduct.controls['name'].invalid && addProduct.controls['name'].touched">
+      <small *ngIf="addProduct.controls['name'].errors?.['required']">Please enter product name</small>
+      <small *ngIf="addProduct.controls['name'].errors?.['minlength']">Please enter product name with atleast 5 characters</small>
+      <small *ngIf="addProduct.controls['name'].errors?.['maxlength']">you can have product name upto only 25 characters</small>
+    </div>
+    <input type="text" class="form-input" placeholder="Enter Product Price" formControlName="price" />
+    <div class="error" *ngIf="addProduct.controls['price'].invalid && addProduct.controls['price'].touched">
+      <small *ngIf="addProduct.controls['price'].errors?.['required']">Please enter product price</small>
+    </div>
+    <input type="text" class="form-input" placeholder="Enter Product Category" formControlName="category" />
+    <div class="error" *ngIf="addProduct.controls['category'].invalid && addProduct.controls['category'].touched">
+      <small *ngIf="addProduct.controls['category'].errors?.['required']">Please enter product category</small>
+    </div>
+    <textarea type="text" class="form-input" placeholder="Enter Product Description" formControlName="description"></textarea>
+    <div class="error" *ngIf="addProduct.controls['description'].invalid && addProduct.controls['description'].touched">
+      <small *ngIf="addProduct.controls['description'].errors?.['required']">Please enter product description</small>
+      <small *ngIf="addProduct.controls['description'].errors?.['maxlength']">you can have product description upto only 500 characters</small>
+    </div>
+    <input type="text" class="form-input" placeholder="Enter Product Image URL" formControlName="image" />
+    <div class="error" *ngIf="addProduct.controls['image'].invalid && addProduct.controls['image'].touched">
+      <small *ngIf="addProduct.controls['image'].errors?.['required']">Please enter product image url</small>
+    </div>
+    <button [disabled]="!addProduct.valid" class="form-button">Add Product</button>
+  </form>
+</div>

@@ -1,0 +1,30 @@
+<div class="update-product">
+  <h1>Update Product</h1>
+  <p class="message-p">{{productMessage}}</p>
+  <form [formGroup]="updateProduct" #addProduct="ngForm" class="common-form" (ngSubmit)="submit(addProduct.value)">
+    <input type="text" class="form-input" placeholder="Enter Product Name " name="name" ngModel="{{productData?.name}}" formControlName="name"/>
+    <div class="error" *ngIf="updateProduct.controls['name'].invalid && updateProduct.controls['name'].touched">
+      <small *ngIf="updateProduct.controls['name'].errors?.['required']">Please enter product name</small>
+      <small *ngIf="updateProduct.controls['name'].errors?.['minlength']">Please enter product name with atleast 5 characters</small>
+      <small *ngIf="updateProduct.controls['name'].errors?.['maxlength']">you can have product name upto only 25 characters</small>
+    </div>
+    <input type="text" class="form-input" placeholder="Enter Product Price" name="price" ngModel="{{productData?.price}}" formControlName="price"/>
+    <div class="error" *ngIf="updateProduct.controls['price'].invalid && updateProduct.controls['price'].touched">
+      <small *ngIf="updateProduct.controls['price'].errors?.['required']">Please enter product price</small>
+    </div>
+    <input type="text" class="form-input" placeholder="Enter Product Category" name="category" ngModel="{{productData?.category}}" formControlName="category"/>
+    <div class="error" *ngIf="updateProduct.controls['category'].invalid && updateProduct.controls['category'].touched">
+      <small *ngIf="updateProduct.controls['category'].errors?.['required']">Please enter product category</small>
+    </div>
+    <textarea type="text" class="form-input" placeholder="Enter Product Description" name="description" ngModel="{{productData?.description}}" formControlName="description"></textarea>
+    <div class="error" *ngIf="updateProduct.controls['description'].invalid && updateProduct.controls['description'].touched">
+      <small *ngIf="updateProduct.controls['description'].errors?.['required']">Please enter product description</small>
+      <small *ngIf="updateProduct.controls['description'].errors?.['maxlength']">you can have product description upto only 500 characters</small>
+    </div>
+    <input type="text" class="form-input" placeholder="Enter Product Image URL" name="image" ngModel="{{productData?.image}}" formControlName="image"/>
+    <div class="error" *ngIf="updateProduct.controls['image'].invalid && updateProduct.controls['image'].touched">
+      <small *ngIf="updateProduct.controls['image'].errors?.['required']">Please enter product image url</small>
+    </div>
+    <button [disabled]="!updateProduct.valid" class="form-button">Update Product</button>
+  </form>
+</div>

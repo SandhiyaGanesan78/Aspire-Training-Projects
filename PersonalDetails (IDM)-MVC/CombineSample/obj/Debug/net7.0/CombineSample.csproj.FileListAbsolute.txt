@@ -1,0 +1,174 @@
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\appsettings.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.staticwebassets.runtime.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.exe
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.deps.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.runtimeconfig.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.pdb
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.csproj.AssemblyReference.cache
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.AssemblyInfoInputs.cache
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.AssemblyInfo.cs
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.csproj.CoreCompileInputs.cache
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.RazorAssemblyInfo.cache
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.RazorAssemblyInfo.cs
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.CombineSample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.build.CombineSample.props
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CombineSample.props
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CombineSample.props
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\scopedcss\bundle\CombineSample.styles.css
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\scopedcss\projectbundle\CombineSample.bundle.scp.css
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\refint\CombineSample.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.pdb
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.genruntimeconfig.cache
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\ref\CombineSample.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Humanizer.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.csproj.CopyComplete
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\MailKit.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\MimeKit.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\package-lock.json
+C:\Users\sandhiyasoundharya\COEDotNet\CombineSample\bin\Debug\net7.0\package.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\appsettings.Development.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\appsettings.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\package-lock.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\package.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.staticwebassets.runtime.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.exe
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.deps.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.runtimeconfig.json
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\CombineSample.pdb
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Azure.Core.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Azure.Identity.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Humanizer.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\MailKit.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\MimeKit.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.CodeDom.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Memory.Data.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\aspire training\COEDotNet\CombineSample\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.csproj.AssemblyReference.cache
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.GeneratedMSBuildEditorConfig.editorconfig
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.AssemblyInfoInputs.cache
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.AssemblyInfo.cs
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.csproj.CoreCompileInputs.cache
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.MvcApplicationPartsAssemblyInfo.cache
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.RazorAssemblyInfo.cache
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.RazorAssemblyInfo.cs
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.CombineSample.Microsoft.AspNetCore.StaticWebAssets.props
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.build.CombineSample.props
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CombineSample.props
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CombineSample.props
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets.pack.json
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets.build.json
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\staticwebassets.development.json
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\scopedcss\bundle\CombineSample.styles.css
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\scopedcss\projectbundle\CombineSample.bundle.scp.css
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.csproj.CopyComplete
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.dll
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\refint\CombineSample.dll
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.pdb
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\CombineSample.genruntimeconfig.cache
+E:\aspire training\COEDotNet\CombineSample\obj\Debug\net7.0\ref\CombineSample.dll
