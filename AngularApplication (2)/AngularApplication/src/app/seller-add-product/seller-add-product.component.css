@@ -1,0 +1,20 @@
+.add-product{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color:rgb(228, 13, 110);
+}
+.add-product h1, .add-product p{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.message-p
+{
+  text-align: center;
+}
+.error{
+  margin-top: -15px;
+    margin-bottom: 15px;
+    color: darkslategrey;
+}

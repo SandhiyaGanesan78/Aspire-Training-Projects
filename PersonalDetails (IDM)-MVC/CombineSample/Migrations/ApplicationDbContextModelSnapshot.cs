@@ -59,6 +59,9 @@ namespace CombineSample.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("employeePassword")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("employmentStartDate")
                         .IsRequired()
                         .HasColumnType("datetime2");

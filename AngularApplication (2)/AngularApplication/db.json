@@ -1,0 +1,239 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "seller": [
+    {
+      "name": "sandhiya",
+      "email": "sandhiyaganesan@gmail.com",
+      "password": "sandhiya@2019",
+      "id": "1"
+    },
+    {
+      "name": "Arun Sai",
+      "password": "Sai@2019",
+      "email": "sai@gmail.com",
+      "id": "2"
+    },
+    {
+      "name": "Ram",
+      "password": "Ram@2019",
+      "email": "Ram@gmail.com",
+      "id": "3"
+    },
+    {
+      "name": "Priya",
+      "password": "Priya@2019",
+      "email": "Priya@gmail.com",
+      "id": "4"
+    },
+    {
+      "name": "Sam",
+      "password": "Sam@2019",
+      "email": "Sam@gmail.com",
+      "id": "5"
+    },
+    {
+      "email": "sandhiyaganesan76@gmail.com",
+      "password": "Sandhiya@2019",
+      "id": "6"
+    },
+    {
+      "name": "sara",
+      "password": "sara@2019",
+      "email": "saa@gmail.com",
+      "id": "7"
+    },
+    {
+      "name": "jason",
+      "password": "Jason@2019",
+      "email": "jason@email.commmm",
+      "id": "8"
+    },
+    {
+      "name": "jason",
+      "password": "Jason@2019",
+      "email": "jason@email.com",
+      "id": "9"
+    },
+    {
+      "name": "johnson",
+      "password": "John@2019",
+      "email": "john@gmail.com",
+      "id": "10"
+    },
+    {
+      "name": "Admin",
+      "password": "Admin@2019",
+      "email": "Admin@gmail.com",
+      "id": "11"
+    }
+  ],
+  "Products": [
+    {
+      "name": "Red Roses Bouquet",
+      "price": "650",
+      "category": "Flowers",
+      "description": "10 Red Roses,\nWhite Gypsophila Gypsy Fillers, Red Non Woven Packing Sheet,\nOne Non-Woven Red Paper,\nBeautifully Tied with Ribbon",
+      "image": "https://www.fnp.com/images/pr/l/v20220706181837/timeless-love-red-roses-bouquet_1.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Forever Love",
+      "price": "4000",
+      "category": "Gift Combo",
+      "description": "10 premium quality, unscented red roses Embellished with white Gypsophila flower fillers Ferrero Rocher chocolate",
+      "image": "https://www.fnp.com/images/pr/l/v20230107224550/forever-kinda-love-gift-combo_1.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Roses & Ferrero Rocher ",
+      "price": "2500",
+      "category": "Hamper",
+      "description": "24 Pink Roses 6 Ferrero Rocher Chocolates White Gypso Pink Non Woven Paper One Wooden Basket with Drawer",
+      "image": "https://www.fnp.com/images/pr/l/v20210407115605/lovely-roses-ferrero-rocher-wooden-arrangement_1.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Sweet n Cuddly Love",
+      "price": "1500",
+      "category": "Hamper",
+      "description": "\t10 pcs of Cadbury Dairy Milk Chocolates (13.2 gms each) 10 premium quality, unscented roses,Peach-coloured soft and bubbly teddy bear",
+      "image": "https://www.fnp.com/images/pr/l/v20230120182326/special-surprise-arrangement_3.jpg\t",
+      "id": "5"
+    },
+    {
+      "name": "Charming Love Roses",
+      "price": "1000",
+      "category": "Flowers",
+      "description": "Flowers\t15 Pink color Roses Fillers-White Gypsophila ,Green, White Victoria & Green Asparagus, FNP Beige Square Wood Base Tray",
+      "image": "https://www.fnp.com/images/pr/l/v20220706181730/charming-love-roses-arrangement_1.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Orchids Bouquet",
+      "price": "1000",
+      "category": "Flowers",
+      "description": "Flowers\t6 Purple Orchids, Pink Packing Paper, Green Color Delhi Asparagus Fillers",
+      "image": "https://www.fnp.com/images/pr/l/v20190819155306/splendid-6-purple-orchids-bouquet_2.jpg\t",
+      "id": "7"
+    },
+    {
+      "name": "My Heart For U Rose",
+      "price": "800",
+      "category": "Flowers",
+      "description": "Unscented Roses (3 Red, 3 Dark Pink, 4 Aqua Pink), Embellished With Green Ficus Benjamina Fig Leaves Fillers, Red & Pink Heart Handle Box",
+      "image": "https://www.fnp.com/images/pr/l/v20230105004533/my-rosy-heart-arrangement_4.jpg\t",
+      "id": "8"
+    },
+    {
+      "name": "Blissful Love Roses",
+      "price": "1500",
+      "category": "Flowers",
+      "description": "12 Aqua Pink Roses, 9 Pink Roses, Fillers- White Gypsophila , Victoria Leaf & Green Ficus, Transparent Cylindrical Glass Jar 6, In Comes with a Green Message Card, Tied with Pink Ribbon",
+      "image": "https://www.fnp.com/images/pr/l/v20221205192019/beautiful-pink-roses-glass-vase-arrangement_1.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Blooms & Truffle Delight",
+      "price": "1500",
+      "category": "Combos",
+      "description": "Premium, unscented pink roses (15 pieces)\nEmbellished with white gypsophila gypsy fillers and victoria leaf\nWrapped in Happy Birthday pink paper and non woven plain pink paper,Truffle cream cake (500gm)\nGreen oasis floral foam for longetivity",
+      "image": "https://www.fnp.com/images/pr/l/v20230410225614/birthday-blooms-n-truffle-delight_1.jpg",
+      "id": "10"
+    }
+  ],
+  "users": [
+    {
+      "name": "mariya",
+      "email": "mariya@gmail.com",
+      "password": "mariya@2019",
+      "id": "1"
+    },
+    {
+      "name": "Ariyan",
+      "email": "ariyan@gmail.com",
+      "password": "ariya@2019",
+      "id": "2"
+    },
+    {
+      "name": "sandhiya",
+      "email": "sandhiyaganesan76@gmail.com",
+      "password": "Sandhiya@2019",
+      "id": "3"
+    },
+    {
+      "name": "sathya",
+      "password": "Sathya@2019",
+      "email": "sathya@gmail.com",
+      "id": "4"
+    },
+    {
+      "name": "geetha",
+      "password": "Geetha@2019",
+      "email": "geetha@gmail.com",
+      "id": "5"
+    },
+    {
+      "name": "sandhiya",
+      "password": "Sandhiya@2019",
+      "email": "sandhiyaganesan76@gmail.com",
+      "id": "6"
+    },
+    {
+      "id": "2a45",
+      "name": "Sandhiya",
+      "password": "Sandhiya@2",
+      "email": "sandhiya@gmail.com"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "mariya@gmail.com",
+      "address": "coimbaore",
+      "contact": "968574121",
+      "totalPrice": 7500,
+      "userId": 1,
+      "id": "1"
+    },
+    {
+      "email": "mariya@gmail.com",
+      "address": "coimbaore",
+      "contact": "968574121",
+      "totalPrice": 7500,
+      "userId": 1,
+      "id": "3"
+    },
+    {
+      "email": "mariya@gmail.com",
+      "address": "coimbaore",
+      "contact": "968574121",
+      "totalPrice": 7500,
+      "userId": 1,
+      "id": "4"
+    },
+    {
+      "email": "mariya@gmail.com",
+      "address": "coimbaore",
+      "contact": "968574121",
+      "totalPrice": 7600,
+      "userId": 1,
+      "id": "5"
+    }
+  ]
+}

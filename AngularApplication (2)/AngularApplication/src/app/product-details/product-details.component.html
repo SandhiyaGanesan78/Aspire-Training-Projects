@@ -1,0 +1,37 @@
+<div class ="row product-details" *ngIf="productData">
+<div class="col-sm-6">
+  <img class="product-img" src="{{productData.image}}" alt="">
+</div>
+<div class="col-sm-6">
+  <div class="details">
+  <h1><b>{{productData.name}}</b></h1>
+<h5>
+  <div class="sc-badge-basis-price">
+
+    <span class="a-size-small a-color-secondary sc-badge-price-label">
+        M.R.P.:
+    </span>
+
+  <span class="a-price a-text-price" data-a-size="s" data-a-strike="true" data-a-color="secondary">
+    <span class="a-offscreen">{{productData.price}}</span>
+  </span>
+  </div>
+   </h5>
+<h6><b>Category:</b>{{productData.category}}</h6>
+<h6><b>Description:</b>{{productData.description}}</h6>
+<div *ngIf="productData.bestSeller" class="seller-redesign">
+  <span>#1 Best Seller</span>
+</div>
+<button class="form-button">Buy Now</button>
+<button *ngIf="removeCart" class="form-button" (click)="removeToCart(productData.id)">Remove from Cart</button>
+<button *ngIf="!removeCart" class="form-button" (click)="addToCart()">Add to Cart</button>
+<div class="quantity-group">
+  <button class="form-button" (click)="handleQuantity('min')"><fa-icon [icon]="icon1"></fa-icon></button>
+  <input class="form-input" type="text" value="{{productQuantity}}"/>
+  <button class="form-button" (click)="handleQuantity('plus')"><fa-icon [icon]="icon"></fa-icon></button>
+
+</div>
+  </div>
+</div>
+</div>
+

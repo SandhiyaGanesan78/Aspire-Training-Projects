@@ -1,0 +1,55 @@
+<nav class="nav">
+  <h1><a routerLink=""> <fa-icon [icon]="icon"></fa-icon>Bloom</a></h1>
+  <div *ngIf="menuType!=='seller'" class="nav-search">
+    <input types="text"#searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search"/>
+    <button (click)="submitSearch(searchInput.value)"><fa-icon [icon]="iconsearch"></fa-icon></button>
+    <ul class="suggested-search" *ngIf="searchResult">
+      <li *ngFor="let item of searchResult">
+        <a (mousedown)="redirectToDeatils(item.id)" > {{item.name}}</a>
+      </li>
+    </ul>
+  </div>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <select id="categories" [(ngModel)]="selectedCategory" (ngModelChange)="filterProducts($event)" >
+        <option  value="">Categories</option>
+        <option   *ngFor="let category of categories" [value]="category">{{ category }}</option>
+      </select>
+      <div *ngIf="products.length > 0"  >
+       <h2>Filtered Products:</h2>
+       <ul>
+      <li *ngFor="let product of products" >
+        {{ product.name }}</li>
+      </ul>
+      </div>
+      <li><a routerLink="user-auth">Login</a></li>
+      <li><a href="#">Cart({{cartItems}})</a></li>
+      <li><a >Hello Guest</a></li>
+
+    </ul>
+    <ul *ngSwitchCase="'user'">
+      <li><a routerLink="">Home</a></li>
+      <select id="categories" [(ngModel)]="selectedCategory" (ngModelChange)="filterProducts($event)" >
+        <option  value="">Categories</option>
+        <option   *ngFor="let category of categories" [value]="category">{{ category }}</option>
+      </select>
+      <div *ngIf="products.length > 0"  >
+       <h2>Filtered Products:</h2>
+       <ul>
+      <li *ngFor="let product of products" >
+        {{ product.name }}</li>
+      </ul>
+      </div>
+      <li><a routerLink="my-orders">My Orders</a></li>
+      <li><a (click)="userLogout()">Logout</a></li>
+      <li><a >Hello,{{userName|titlecase}}</a></li>
+      <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
+    </ul>
+    <ul *ngSwitchCase="'seller'">
+      <li><a routerLink="seller-add-product">Add Product</a></li>
+      <li><a routerLink="seller-home">List</a></li>
+      <li><a (click)="logout()">Logout</a></li>
+      <li><a href="#">Hello,{{sellerName|titlecase}}</a></li>
+    </ul>
+  </div>
+</nav>

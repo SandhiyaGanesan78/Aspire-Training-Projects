@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQxt8O6WOqhclsXwlCcBcl7TFNOqi6hop7ZS4DxzCyAccgXSD/WH4Q89hmxbfaJ3lNay49p1NVea5YnBMaot7Q==",
+  "dgSpecHash": "TEn/g8Q6h035/Dz+6gehpngylZvBL9Gs5opsFJbAMIk52DR7iQfaDX7DcRQqDknMrZLfZXYWkXJ/05tw2xpAyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj",
+  "projectFilePath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sandhiya.ganesan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\sandhiya.ganesan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,0 +1,22 @@
+.my-orders h1{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.my-orders .order-img{
+  width: 150px;
+  height: 150px;
+}
+.order-data{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid  rgb(228, 13, 110) ;
+}
+
+.my-orders{
+margin-bottom: 100px;
+font-family: 'Courier New', Courier, monospace;
+
+}

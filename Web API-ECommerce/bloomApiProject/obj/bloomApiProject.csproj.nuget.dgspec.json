@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sandhiya.ganesan\\Downloads\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj": {}
+    "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sandhiya.ganesan\\Downloads\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj": {
+    "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sandhiya.ganesan\\Downloads\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj",
+        "projectUniqueName": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj",
         "projectName": "bloomApiProject",
-        "projectPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj",
+        "projectPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\Web API-ECommerce\\bloomApiProject\\bloomApiProject.csproj",
         "packagesPath": "C:\\Users\\sandhiya.ganesan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Web API-ECommerce\\bloomApiProject\\obj\\",
+        "outputPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\Web API-ECommerce\\bloomApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sandhiya.ganesan\\AppData\\Roaming\\NuGet\\NuGet.Config"

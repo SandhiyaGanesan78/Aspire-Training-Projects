@@ -1,0 +1,23 @@
+.category{
+  width: 800px;
+  margin: 25px auto;
+  border-top: 1px solid rgb(241, 94, 119);
+  padding-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.category img{
+  width: 100%;
+  object-fit: contain;
+  height: 150px;
+
+}
+.category h6{
+  color: mediumvioletred;
+  font-size: 24px;
+}
+.category p{
+  margin-bottom: 5px;
+}
+.category span{
+  margin-right: 10px;
+}

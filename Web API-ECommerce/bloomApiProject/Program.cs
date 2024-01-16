@@ -25,20 +25,30 @@ builder.Services.AddCors(option=>{
 builder.Services.AddDbContext<bloomApiProjectDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddAuthentication(x=>{
-    x.DefaultAuthenticateScheme=JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme=JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(x=>{
-    x.RequireHttpsMetadata=false;
-    x.SaveToken=true;
-    x.TokenValidationParameters=new TokenValidationParameters{
-        ValidateIssuerSigningKey=true,
-        IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes("veryverysceret....")),
-        ValidateAudience=false,
-        ValidateIssuer=false,
-        ClockSkew=TimeSpan.Zero
+
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+
+    // Shared key for token creation and validation
+    var sharedKey = "veryverysceret....";
+    var keyBytes = Encoding.ASCII.GetBytes(sharedKey);
+
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
+        ValidateAudience = false,
+        ValidateIssuer = false,
+        ClockSkew = TimeSpan.Zero
     };
 });
+
 
 var app = builder.Build();
 

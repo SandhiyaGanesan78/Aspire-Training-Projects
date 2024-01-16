@@ -1,0 +1,48 @@
+<div class="seller-auth">
+  <div *ngIf="!showLogin" class="sign-up">
+    <h1>Seller Sign-up</h1>
+    <form [formGroup]="signupForm" #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+      <input type="text" class="form-input" placeholder="Enter Your Name" name="name" ngModel formControlName="name"/>
+      <div class="error" *ngIf="signupForm.controls['name'].invalid && signupForm.controls['name'].touched">
+        <small *ngIf="signupForm.controls['name'].errors?.['required']">Please enter your username</small>
+        <small *ngIf="signupForm.controls['name'].errors?.['minlength']">Please enter your username with atleast 5 characters</small>
+      </div>
+      <input type="text" class="form-input" placeholder="Enter Your Email" name="email" ngModel formControlName="email"/>
+      <div class="error" *ngIf="signupForm.controls['email'].invalid && signupForm.controls['email'].touched">
+        <small *ngIf="signupForm.controls['email'].errors?.['required']">Please enter your email</small>
+        <small *ngIf="signupForm.controls['email'].errors?.['email']">Please enter a valid email</small>
+      </div>
+      <input type="password" class="form-input" placeholder="Enter Your Password" name="password" ngModel formControlName="password"/>
+      <div class="error" *ngIf="signupForm.controls['password'].invalid && signupForm.controls['password'].touched">
+        <small *ngIf="signupForm.controls['password'].errors?.['required']">Please enter your password</small>
+        <small *ngIf="signupForm.controls['password'].errors?.['minlength']">Please enter your password with minimum length of 8 charcters. </small>
+        <small *ngIf="signupForm.controls['password'].errors?.['maxlength']">You can only enter upto 25 charcters</small>
+        <small *ngIf="signupForm.controls['password'].errors?.['pattern']">Password must contains a uppercase character, special charcter and digit</small>
+      </div>
+
+      <button [disabled]="!signupForm.valid" class="form-button">Sign Up</button>
+    </form>
+
+    <p class="auth-toggle-link">Already have account?<a  (click)="openLogin()"> CLick for Login </a> </p>
+  </div>
+
+
+<div *ngIf="showLogin" class="Login">
+  <h1>Seller Login</h1>
+  <p class="error-p">{{authError}}</p>
+  <form  [formGroup]="loginForm" #sellerLogin="ngForm" (ngSubmit)="Login(sellerLogin.value)" class="common-form">
+    <input type="text" class="form-input" placeholder="Enter Your Email" name="email" ngModel formControlName="email"/>
+    <div class="error" *ngIf="loginForm.controls['email'].invalid && loginForm.controls['email'].touched">
+      <small *ngIf="loginForm.controls['email'].errors?.['required']">Please enter your email</small>
+      <small *ngIf="loginForm.controls['email'].errors?.['email']">Please enter a valid email</small>
+    </div>
+    <input type="password" class="form-input" placeholder="Enter Your Password" name="password" ngModel formControlName="password"/>
+    <div class="error" *ngIf="loginForm.controls['password'].invalid && loginForm.controls['password'].touched">
+      <small *ngIf="loginForm.controls['password'].errors?.['required']">Please enter your password</small>
+    </div>
+    <button  [disabled]="!loginForm.valid" class="form-button">Login</button>
+    <p class="auth-toggle-link" >Don't have account? <a (click)="openSignup()">CLick for SignUp </a>
+    </p>
+  </form>
+</div>
+</div>

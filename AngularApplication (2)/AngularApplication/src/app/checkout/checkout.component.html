@@ -1,0 +1,36 @@
+<div class="checkout">
+  <h1>Checkout</h1>
+  <p class="message-p">{{orderMessage}}</p>
+  <div class="row">
+    <div class="col-sm-7">
+      <h1>Add shipping address</h1>
+      <form [formGroup]="checkout" #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
+        <input type="text" name="email"
+        placeholder="enter user Email" ngModel class="form-input" formControlName="email"/>
+        <div class="error" *ngIf="checkout.controls['email'].invalid && checkout.controls['email'].touched">
+          <small *ngIf="checkout.controls['email'].errors?.['required']">Please enter your email</small>
+          <small *ngIf="checkout.controls['email'].errors?.['email']">Please enter a valid email</small>
+        </div>
+        <input type="text" name="address"
+        placeholder="enter user address" ngModel class="form-input" formControlName="address"/>
+        <div class="error" *ngIf="checkout.controls['address'].invalid && checkout.controls['address'].touched">
+          <small *ngIf="checkout.controls['address'].errors?.['required']">Please enter your address</small>
+          <small *ngIf="checkout.controls['address'].errors?.['minlength']">enter a valid address</small>
+          <small *ngIf="checkout.controls['address'].errors?.['maxlength']">you address can have upto only 150 characters </small>
+        </div>
+        <input type="text" name="contact"
+        placeholder="enter user contact details" ngModel class="form-input" formControlName="contact"/>
+        <div class="error" *ngIf="checkout.controls['contact'].invalid && checkout.controls['contact'].touched">
+          <small *ngIf="checkout.controls['contact'].errors?.['required']">Please enter your contact details</small>
+          <small *ngIf="checkout.controls['contact'].errors?.['pattern']">Please enter valid number</small>
+
+        </div>
+        <button [disabled]="!checkout.valid" class="form-button">Order Now</button>
+      </form>
+    </div>
+    <div class="col-sm-5">
+      <h3>Total Amount: {{totalPrice}}</h3>
+      <h4>Payment Method: <b>cash on delivery</b></h4>
+    </div>
+  </div>
+</div>

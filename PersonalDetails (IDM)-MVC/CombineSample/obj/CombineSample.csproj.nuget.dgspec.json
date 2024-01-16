@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sandhiya.ganesan\\Downloads\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj": {}
+    "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sandhiya.ganesan\\Downloads\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj": {
+    "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sandhiya.ganesan\\Downloads\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj",
+        "projectUniqueName": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj",
         "projectName": "CombineSample",
-        "projectPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj",
+        "projectPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\PersonalDetails (IDM)-MVC\\CombineSample\\CombineSample.csproj",
         "packagesPath": "C:\\Users\\sandhiya.ganesan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\PersonalDetails (IDM)-MVC\\CombineSample\\obj\\",
+        "outputPath": "C:\\Users\\sandhiya.ganesan\\Downloads\\Aspire Training Projects\\Projects\\PersonalDetails (IDM)-MVC\\CombineSample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sandhiya.ganesan\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,29 @@
+.sign-up,.Login{
+  text-align: center;
+}
+.sign-up h1,.Login h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color:rgb(228, 13, 110);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.auth-toggle-link{
+  color:rgb(228, 13, 110);
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+
+.error-p{
+  color: darkslategrey;
+}
+.error{
+  margin-top: -15px;
+    margin-bottom: 15px;
+    color: darkslategrey;
+}
+
+

@@ -20,7 +20,7 @@ public UserController(bloomApiProjectDbContext context)
 }
         [HttpPost]
         [Route("authenticate")]
-        public async Task<IActionResult> Authenticate([FromBody] Users userobj){
+        public async Task<IActionResult> Authenticate( Users userobj){
             if(userobj==null){
                  return BadRequest();
             }
@@ -68,23 +68,30 @@ public UserController(bloomApiProjectDbContext context)
         =>_context.users.AnyAsync(x=>x.email== email);
         
         private string CreateJwtToken(Users users)
-        {
-            var jwtTokenHandler= new JwtSecurityTokenHandler();
-            var key=Encoding.ASCII.GetBytes("veryverysceret....");
-            var identity=new ClaimsIdentity(new Claim[]{
-                new Claim(ClaimTypes.Role, users.role),
-                new Claim(ClaimTypes.Email,$"{users.email}")
-            });
+{
+    var jwtTokenHandler = new JwtSecurityTokenHandler();
 
-            var credentials=new SigningCredentials(new SymmetricSecurityKey(key),SecurityAlgorithms.HmacSha256 );
-            var tokenDescriptor=new SecurityTokenDescriptor{
-                Subject=identity,
-                Expires= DateTime.Now.AddDays(10),
-                SigningCredentials=credentials
-            };
-            var token=jwtTokenHandler.CreateToken(tokenDescriptor);
-            return jwtTokenHandler.WriteToken(token);
-        }
+    // Shared key for token creation and validation
+    var sharedKey = "veryverysceret....";
+    var key = Encoding.ASCII.GetBytes(sharedKey);
+
+    var identity = new ClaimsIdentity(new Claim[]{
+        new Claim(ClaimTypes.Role, users.role),
+        new Claim(ClaimTypes.Email,$"{users.email}")
+    });
+
+    var credentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256);
+    var tokenDescriptor = new SecurityTokenDescriptor
+    {
+        Subject = identity,
+        Expires = DateTime.Now.AddDays(10),
+        SigningCredentials = credentials
+    };
+    
+    var token = jwtTokenHandler.CreateToken(tokenDescriptor);
+    return jwtTokenHandler.WriteToken(token);
+}
+
         
         [HttpGet]
         public async Task<ActionResult> GetAllUsers()

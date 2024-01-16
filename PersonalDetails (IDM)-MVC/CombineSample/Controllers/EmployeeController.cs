@@ -67,6 +67,7 @@ public class EmployeeController:Controller{
                     ViewData["Message"] = "You are successfully registered with us.";
                     _dbContext.Add(employee);
                     await _dbContext.SaveChangesAsync();
+                    ViewData["Message"]="your are registered with us";
                 }
             }
         }

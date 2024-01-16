@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bloomApiProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9279d756274f25154148b8434797c70cc74c5703")]
 [assembly: System.Reflection.AssemblyProductAttribute("bloomApiProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bloomApiProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

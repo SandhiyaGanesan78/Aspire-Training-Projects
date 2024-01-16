@@ -1,0 +1,78 @@
+body{
+  font-family: sans-serif;
+}
+.container{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.common-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(228, 13, 110);
+  padding-left: 15px;
+  color: rgb(228, 13, 110);
+}
+.form-button{
+  height: 35px;
+  border: 1px solid white;
+  mask-border:inherit;
+  color: white;
+  cursor: pointer;
+  font-size:15px ;
+  background-color: palevioletred ;
+  font-family: 'Courier New', Courier, monospace;
+}
+button:hover {
+  background-color:  rgb(228, 13, 110);
+}
+
+button:active {
+  background-color:  rgb(228, 13, 110);
+}
+.message-p{
+ color: black;
+ text-align: center;
+}
+
+.carousel-caption{
+  position: absolute;
+  right: 27%;
+  bottom: 0rem;
+  left: 27%;
+  padding-top: 1.25rem;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(228, 13, 110);
+  border-radius: 10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 5px;
+}
+
+body {
+  background-color: lightpink;
+}
+.invalid-input{
+  color: red;
+font-size: 12px;
+margin-top: 20px;}
+button:disabled{
+  cursor:not-allowed;
+}
+.maxwidth{
+  width: 100%;
+}
+input.ng-invalid{
+  border:1px solid darkslategrey;
+}
+
+input.ng-valid{
+  border:2px solid  rgb(228, 13, 110) ;
+}

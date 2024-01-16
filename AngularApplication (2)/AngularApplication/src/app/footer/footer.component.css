@@ -1,0 +1,25 @@
+.nav{
+  background-color:  rgb(228, 13, 110);
+  color: white;
+  margin-right: -130px;
+  justify-content: space-evenly;
+  margin-left: -80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav ul a{
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
+
+}
+.footer h5{
+  background-color: rgb(51, 50, 50);
+  color: white;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+

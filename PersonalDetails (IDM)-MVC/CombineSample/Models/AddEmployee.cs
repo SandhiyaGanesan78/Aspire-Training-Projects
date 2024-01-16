@@ -16,6 +16,12 @@ public class AddEmployee
     [Display(Prompt ="enter employee Email address")]
     public string? employeeEmail { get; set; }
 
+    [DataType(DataType.Password)]
+    [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$",
+    ErrorMessage = "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character.")]
+    [Display( Prompt ="enter your password ")]
+    public string? employeePassword { get; set; }
+
     [Required (ErrorMessage ="Please enter employee employment status")]
     [Display( Prompt ="enter employee working status")]
     public string? employmentStatus { get; set; }
